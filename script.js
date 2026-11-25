@@ -8,7 +8,7 @@
     "lift-chair": "Lift-Chair"
   };
   var PRODUCT_IDS = Object.keys(PRODUCT_LABELS);
-  var DEFAULT_PRODUCT = "rocket-chair";
+  var DEFAULT_PRODUCT = "rocket-table";
   var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
   var navLinks = Array.prototype.slice.call(document.querySelectorAll(".product-nav a"));
